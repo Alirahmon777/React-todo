@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { toastSuccess } from "../utils/toaster";
-import { getUserTime } from "../utils/date";
 
 function Modal({ onClose, data, setDatas, datas, title }) {
   const [newState, setNewState] = useState({
