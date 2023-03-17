@@ -7,7 +7,6 @@ const toastError = (message) => {
     position: "top-center",
   });
 };
-
 const toastSuccess = (message) => {
   return toast.success(message, {
     duration: 4000,
